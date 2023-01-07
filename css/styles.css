@@ -247,6 +247,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+
 .antenna::before {
   background-image: url(../images/antenna.svg);
 }
