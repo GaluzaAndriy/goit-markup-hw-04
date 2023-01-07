@@ -35,7 +35,6 @@ img {
 body {
   font-family: "Roboto", sans-serif;
   color: var(--main-body-color);
-  /* background-color: aqua; */
 }
 
 .container {
@@ -114,11 +113,6 @@ body {
   gap: 0;
 }
 
-/* .header-item {
-
-  background-color: aqua;
-} */
-
 .header-link {
   padding-top: 24px;
   padding-right: 20px;
@@ -142,13 +136,9 @@ body {
 
 .header-contacts {
   display: flex;
-  /* align-items: center; */
   margin-right: 0;
   gap: 40px;
 }
-
-/* .header-contacts-mail {
-} */
 
 .header-mail {
   padding-top: 24px;
@@ -162,8 +152,6 @@ body {
 .header-mail:focus {
   color: var(--active-color);
 }
-/* .header-contacts-tel {
- } */
 
 .header-tel {
   padding-top: 24px;
@@ -180,10 +168,6 @@ body {
 
 /*------------- HERO------------------------*/
 
-/* .button {
-  border: 1px solid transparent;
-} */
-
 .hero {
   padding-top: 188px;
   padding-bottom: 188px;
@@ -199,11 +183,6 @@ body {
   background-size: cover;
   max-width: 1440px;
 }
-
-/* .container-hero {
-
-
-  } */
 
 .hero-title {
   margin-left: auto;
@@ -247,10 +226,6 @@ body {
   background-color: #404bbf;
 }
 /*------------- FEATURES------------------------*/
-/* .features {
-  padding-top: 120px;
-  padding-bottom: 120px;
-} */
 
 .features-list {
   display: flex;
@@ -266,7 +241,6 @@ body {
   display: block;
   height: 112px;
   background: #f4f4fd;
-  border-radius: 4px;
   border-radius: 4px;
   margin-bottom: 8px;
   background-size: 64px 64px;
@@ -324,16 +298,12 @@ body {
   display: flex;
   gap: 24px;
 }
-/* 
-.examples-item {
-} */
 
 /*------------- TEAM------------------------*/
 
 .team {
   background-color: var(--first-background-color);
-  /* padding-top: 120px;
-  padding-bottom: 120px; */
+
   background-color: #f4f4fd;
 }
 
@@ -407,9 +377,6 @@ body {
 }
 
 /*------------- castomers------------------------*/
-/* .customers {
-  background: #E5E5E5;
-} */
 
 .customers-title {
   font-weight: var(--main-font-weigth);
@@ -488,17 +455,11 @@ body {
 
 /*------------- PORTFOLIO------------------------*/
 
-/* .portfolio-main {
-  padding-top: 96px;
-  padding-bottom: 120px;
-} */
-
 .portfolio {
   padding-top: 96px;
 }
 
 .filters-list {
-  /* margin-left: 271px; */
   display: flex;
   gap: 24px;
   margin-bottom: 72px;
@@ -506,9 +467,6 @@ body {
   gap: 24px;
   justify-content: center;
 }
-/* }
-  .filters-item {
-} */
 
 .filters-btn {
   padding: 12px 24px;
