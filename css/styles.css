@@ -224,6 +224,8 @@ body {
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #404bbf;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 /*------------- FEATURES------------------------*/
 
@@ -247,7 +249,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
-
 
 .antenna::before {
   background-image: url(../images/antenna.svg);
