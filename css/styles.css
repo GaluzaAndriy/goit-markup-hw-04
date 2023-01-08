@@ -403,7 +403,7 @@ body {
 }
 
 .customers-item {
-  width: calc((100%-120px) / 5);
+  width: 168px;
   height: 88px;
 }
 .customers-link {
