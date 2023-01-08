@@ -250,6 +250,10 @@ body {
   background-position: center;
 }
 
+/* ці іконки додані не з спрайту для того щоб був попрактикуватися 
+з before , лектора окремо запитували чи так можна, і він сказав що так
+усі інші в оптимізованому спрайті */
+
 .antenna::before {
   background-image: url(../images/antenna.svg);
 }
@@ -429,6 +433,7 @@ body {
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: var(--title-color);
+  display: flex;
 }
 
 .footer-logo {
@@ -448,12 +453,57 @@ body {
   color: var(--active-color);
 }
 
+.footer-contacts {
+  display: flex;
+}
+
+.footer-first-colum {
+  margin-right: 120px;
+}
+
+.media {
+  margin-bottom: 16px;
+  font-weight: var(--main-font-weigth);
+  font-size: var(--main-font-size);
+  line-height: 1.5;
+  letter-spacing: var(--main-letter-spacing);
+  color: var(--first-white-color);
+}
+
 .footer-text {
   width: 264px;
   font-size: var(--main-font-size);
   line-height: 1.5;
   letter-spacing: var(--main-letter-spacing);
   color: #e7e9fc;
+}
+
+.footer-soc-list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.footer-soc-item {
+  width: 40px;
+  height: 40px;
+}
+.footer-soc-link {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-soc-icon {
+  fill: #F4F4FD;
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+  background-color: rgba(49, 208, 170, 1);
 }
 
 /*------------- PORTFOLIO------------------------*/
